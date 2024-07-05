@@ -12,6 +12,7 @@
   "homepage": "https://vue3-google-signin.wavezync.com",
   "scripts": {
     "dev": "vite",
+    "prepare": "npm run build",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview --port 5050",
     "typecheck": "vue-tsc --noEmit",
